@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_picture">
+
+    <TextView
+        android:id="@+id/welcomeMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:textSize="28sp"
+        android:text="WhatsApp Aplication"/>
+
+    <ImageView
+        android:id="@+id/welcomeLogoImageView"
+        android:src="@drawable/app_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_below="@id/welcomeMessageTextView"
+        android:adjustViewBounds="true"/>
+
+    <LinearLayout
+        android:id="@+id/welcomeLinearLayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+        android:id="@+id/welcomeLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:textColor="@color/orange"
+        android:text="LOGIN" />
+
+        <Button
+        android:id="@+id/welcomeRegisterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginBottom="10dip"
+        android:textColor="@color/orange"
+        android:text="REGISTER" />
+
+    </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:paddingTop="5dip" 
+    android:paddingBottom="5dip"
+    android:paddingLeft="5dip" 
+    android:paddingRight="5dip"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+    <TextView 
+        android:id="@+id/date"
+        android:paddingTop="5dip" 
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip" 
+        android:paddingRight="5dip"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/shape_whatsapp_date"
+        android:textColor="@color/white"
+        android:textSize="12dip"
+        android:text="the date"
+        android:visibility="gone"/>  
+
+    <TextView 
+        android:id="@+id/texto"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/date"
+        android:textColor="@color/black"
+        android:textSize="12dip"
+        android:background="@drawable/bubble_yellow"/> 
+    
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/texto"
+        android:layout_alignBaseline="@id/texto"
+        android:layout_marginLeft="10dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:textColor="@color/black"
+        android:textSize="12dip"
+        android:text="the hour"/> 
+        
+</RelativeLayout> 
+

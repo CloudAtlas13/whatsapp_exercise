@@ -1,0 +1,41 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/juanje/AndroidStudioProjects/Nacho/Whatsapp/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/juanje/AndroidStudioProjects/Nacho/Whatsapp/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,95,134,175",
+                        "endColumns": "39,38,40,39",
+                        "endOffsets": "90,129,170,210"
+                    }
+                },
+                {
+                    "source": "/home/juanje/AndroidStudioProjects/Nacho/Whatsapp/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,5,3,7,4,6",
+                        "startColumns": "-1,4,4,4,4,4",
+                        "startOffsets": "-1,207,105,308,153,256",
+                        "endColumns": "-1,47,46,44,52,50",
+                        "endOffsets": "-1,250,147,348,201,302"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "215,262,310,357,402,455",
+                        "endColumns": "46,47,46,44,52,50",
+                        "endOffsets": "257,305,352,397,450,501"
+                    }
+                }
+            ]
+        }
+    ]
+}
